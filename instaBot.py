@@ -1,8 +1,9 @@
-import requests, urllib
-from textblob import TextBlob
+#instaBot.py is an utility python code for instagram
+import requests, urllib     #request library helps browser verbs to get in action
+from textblob import TextBlob   #module for checking qulaity of comment
 from textblob.sentiments import NaiveBayesAnalyzer
 
-APP_ACCESS_TOKEN = '1773713678.5a4c43f.4577640077dd49549abf9a94363db447'
+APP_ACCESS_TOKEN = '1773713678.5a4c43f.4577640077dd49549abf9a94363db447' #insta Api token 
 
 
 BASE_URL = 'https://api.instagram.com/v1/'
